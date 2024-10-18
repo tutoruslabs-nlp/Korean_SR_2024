@@ -1,0 +1,32 @@
+[
+    {
+        "id": "nikluge-2024-연결문장추론-test-000001",
+        "input": {
+            "sentence_1": "그의 앞으로 그녀가 머리카락을 흩날리며 지나갔다.",
+            "sentence_3": "그녀는 그의 시선을 느끼기라도 한 듯 뒤를 돌아보았다.",
+            "sentence_2_candidate_1": "나는 그의 머리카락을 피해 숙였다.",
+            "sentence_2_candidate_2": "나는 그녀가 지나가는 모습을 빤히 봤다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-test-000002",
+        "input": {
+            "sentence_1": "효겸은 수현과 테니스 경기를 벌였다.",
+            "sentence_3": "효겸은 수현의 실력에 혀를 내둘렀다.",
+            "sentence_2_candidate_1": "수현은 테니스 경기를 하는 족족 이겼다.",
+            "sentence_2_candidate_2": "수현은 탁구 경기를 하는 족족 이겼다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-test-000003",
+        "input": {
+            "sentence_1": "그는 춤을 배우고 싶어 친구들과 함께 학원에 등록했다.",
+            "sentence_3": "그는 결국 학원을 그만두었다.",
+            "sentence_2_candidate_1": "하지만 그 학원에서 왕따를 당했다.",
+            "sentence_2_candidate_2": "친구와 함께 배우는 춤은 더 재밌게 느껴졌다."
+        },
+        "output": "sentence_2_candidate_1"
+    }
+]
